@@ -8,6 +8,6 @@ Steps to use:
 3. in PluginProcessor.cpp change the #include's to point to your JUCE/SOUL install locations
 4. Build / Debug
 5. Copy the  .vst3 in the generated builds folder to wherever your DAW looks for vst3's
-6. Open your DAW, load SOU_VST3_HOST and drag in your soul patches
+6. Open your DAW, load SOUL_VST3_HOST and drag in soul patches
 
 Remember to tick "Plugin is a Synth" and "Plugin MIDI Input" in Projucer if you want to test instrument patches.
