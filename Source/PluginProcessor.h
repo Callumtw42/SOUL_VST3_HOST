@@ -8,10 +8,11 @@
 
 #pragma once
 #include <JuceHeader.h>
-#include "../../SOUL/source/API/soul_patch/API/soul_patch.h"
-#include "../../SOUL/source/API/soul_patch/helper_classes/soul_patch_AudioPluginFormat.h"
-#include "../../SOUL/source/API/soul_patch/helper_classes/soul_patch_Utilities.h"
-#include "../../SOUL/source/API/soul_patch/helper_classes/soul_patch_CompilerCacheFolder.h"
+#include "soul/soul_patch.h"
+#include "soul/patch/helper_classes/soul_patch_AudioPluginFormat.h"
+
+#include "soul/patch/helper_classes/soul_patch_Utilities.h"
+#include "soul/patch/helper_classes/soul_patch_CompilerCacheFolder.h"
 
 #include "VST3PatchLoaderComponent .h"
 
